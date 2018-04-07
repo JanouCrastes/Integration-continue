@@ -1,12 +1,16 @@
 package src;
 
 public class Product {
-    public double getPrix() {
-        return Prix;
+    private int id;
+    private double price;
+    private String name;
+
+    public double getPrice() {
+        return price;
     }
 
-    public void setPrix(double prix) {
-        Prix = prix;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getId() {
@@ -18,14 +22,11 @@ public class Product {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
-    private double Prix;
-    private int id;
-    private String Name;
 }
