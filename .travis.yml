@@ -1,0 +1,7 @@
+language: java
+notifications:
+  email: false
+notifications:
+  slack:
+    rooms:
+      - epsiic:J0Rhmfbr06lNIwYYHwmqmNvv#janou_victorien
