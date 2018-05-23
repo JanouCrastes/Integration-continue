@@ -10,6 +10,21 @@ public class TestProduct {
             product.setName("voiture");
             product.setPrix(1500);
             Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+            Assert.assertEquals("voiture",product.getName());
+
+
+
 
             /*Product product=new Product();
             product.setName("voiture");
