@@ -1,6 +1,6 @@
 language: java
 notifications:
-  email: true
+  email: false
 notifications:
   slack:
     rooms:
@@ -8,7 +8,7 @@ notifications:
 
 addons:
   sonarcloud:
-    organization: "JanouCrastes-github"
+    organization: "janoucrastes-github"
     token:
       secure: "739c13f3bc51f478b156c3aaa080c00c8ab38664"
 script:
