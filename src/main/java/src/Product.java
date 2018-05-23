@@ -37,4 +37,13 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
+
+
+    /*
+    private double prix;
+    private String name;
+
+    public double getPrix()
+     */
+
 }
