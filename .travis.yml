@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: "JanouCrastes-github"
     token:
-      secure: ${739c13f3bc51f478b156c3aaa080c00c8ab38664}
+      secure: "739c13f3bc51f478b156c3aaa080c00c8ab38664"
     branches:
       - master
 script:
