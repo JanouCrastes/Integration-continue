@@ -1,21 +1,12 @@
-
-    package test;
-
 import org.junit.Test;
-    public class TestProduct {
+import src.Product;
+
+public class TestProduct {
         @Test
-        public void insertProduct
+        public void insertProduct()
         {
-
-
+            Product product=new Product();
+            product.setName("voiture");
+            product.setPrix(1500);
         }
-
-        public void insertUser
-        {
-
-
-        }
-
     }
-
-}
