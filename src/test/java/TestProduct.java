@@ -13,7 +13,6 @@ public class TestProduct {
             Assert.assertEquals("voiture",product.getName());
             product.getId();
             product.getPrix();
-            //artifactory test
 
             /*Product product=new Product();
             product.setName("voiture");
