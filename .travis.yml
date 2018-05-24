@@ -7,7 +7,7 @@ notifications:
       - epsiic:J0Rhmfbr06lNIwYYHwmqmNvv#janou_victorien
 
 addons:
-artifcats: true
+artifacts: true
 addons:
   sonarcloud:
     organization: "janoucrastes-github"

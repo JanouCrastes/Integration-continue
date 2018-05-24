@@ -15,7 +15,6 @@ public class TestProduct {
             product.getPrix();
             //artifactory test
 
-
             /*Product product=new Product();
             product.setName("voiture");
             product.setPrix(1500);
