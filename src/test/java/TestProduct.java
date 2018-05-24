@@ -14,6 +14,8 @@ public class TestProduct {
             product.getId();
             product.getPrix();
 
+            //l
+
             /*Product product=new Product();
             product.setName("voiture");
             product.setPrix(1500);
