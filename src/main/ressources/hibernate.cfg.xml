@@ -10,15 +10,16 @@
 
         <!-- Database Connection Settings -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql:51.15.216.64:3306</property>
+        <property name="hibernate.connection.url">jdbc:mysql://51.15.216.64:3306/jv_ic</property>
         <property name="hibernate.connection.username">jv_ic</property>
         <property name="hibernate.connection.password">y27fqMt8</property>
         <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!-- Specifying Session Context -->
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
 
         <!-- Mapping With Model Class Containing Annotations -->
-        <mapping class="TestProduct" />
+        <mapping class="src.Product" />
     </session-factory>
 </hibernate-configuration>
